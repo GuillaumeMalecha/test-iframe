@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* allerta-stencil-regular - latin */
+@font-face {
+  font-family: 'Allerta Stencil';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allerta Stencil Regular'), local('AllertaStencil-Regular'),
+       url('../fonts/allerta-stencil-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/allerta-stencil-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+iframe {
+  border: 4px double grey;
+  margin: 5px 60px;  
+}
+h1 {
+  font-family: Allerta Stencil;
+  color: #ece7d4;
+  text-align: center;
+  background: #7e7c66;
+}
+
+html {
+  background-color: #ece7d4;
+}
+h2 {
+  font-family: Allerta Stencil;
+  font-size: 20px;
+  color: #716f5b;
+  margin: 5px 30px;
+}
+p {
+  font: verdana;
+  font-size: 15px;
+  color: #716f5b;
+  margin: 5px 50px;
+}
+p:last-of-type {
+  font: verdana;
+  font-size: 12px;
+  color: #7e7c66;
+  margin: 5px 80px;
+}
+
